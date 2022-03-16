@@ -1,17 +1,31 @@
 # x-ui
-支持多协议多用户的 xray 面板
 
-# 功能介绍
-- 系统状态监控
-- 支持多用户多协议，网页可视化操作
-- 支持的协议：vmess、vless、trojan、shadowsocks、dokodemo-door、socks、http
-- 支持配置更多传输配置
-- 流量统计，限制流量，限制到期时间
-- 可自定义 xray 配置模板
-- 支持 https 访问面板（自备域名 + ssl 证书）
-- 更多高级配置项，详见面板
+![инглиш мазафака ду ю спик ит](https://user-images.githubusercontent.com/2741725/158698488-cd7538a8-9bc5-4c11-b60a-6dc18244635f.jpg)
 
-# 安装&升级
+xray panel with multi-protocol multi-user support
+
+# Features
+- System status monitoring
+- Support multi-user multi-protocol, web page visualization operation
+- Supported protocols: vmess, vless, trojan, shadowsocks, dokodemo-door, socks, http
+- Support to configure more transmission configurations
+- Traffic statistics, limit traffic, limit expiration time
+- Customizable xray configuration templates
+- Support https access panel (bring your own domain name + ssl certificate)
+- For more advanced configuration items, see the panel for details
+
+
+# Build
+
+```
+git clone https://github.com/hatarist/x-ui-english
+cd x-ui-english
+go build main.go
+mv main /usr/local/bin/x-ui
+```
+
+¯\_(ツ)_/¯ 
+
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
 ```
