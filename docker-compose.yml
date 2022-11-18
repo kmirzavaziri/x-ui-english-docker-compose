@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+    service-x-ui:
+        build: x-ui
+        network_mode: host
+        volumes:
+            - ./vol/db:/etc/x-ui/
+            - ./vol/cert:/root/cert/
+        restart: always
