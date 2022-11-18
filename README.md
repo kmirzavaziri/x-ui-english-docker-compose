@@ -22,5 +22,7 @@ sudo docker compose up -d
 - Change your user pass combo from `panel settings > user settings`. (DO NOT SKIP THIS STEP)
 - Add an inbound from `inbound list` with the following config.
   > port: ARBITRARY
+  >
   > transmission: ws
+  >
   > path: ARBITRARY
