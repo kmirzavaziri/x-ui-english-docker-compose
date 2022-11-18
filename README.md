@@ -15,3 +15,6 @@ cd x-ui
 ```
 sudo docker compose up
 ```
+
+### Config
+go to the `{YOUR_SERVER_IP_ADDRESS_OR_DOMAIN}:54321` and add an inbound item.
