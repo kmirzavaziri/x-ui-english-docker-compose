@@ -8,3 +8,11 @@ services:
             - ./vol/db:/etc/x-ui/
             - ./vol/cert:/root/cert/
         restart: always
+
+    portfolio:
+        image: nginx
+        ports:
+            - 80:80
+        volumes:
+            - ./portfolio:/usr/share/nginx/html
+        restart: always
